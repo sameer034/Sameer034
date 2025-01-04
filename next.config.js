@@ -3,11 +3,7 @@ const nextConfig = {
     reactStrictMode: true,
     swcMinify: true,
     images: {
-        remotePatterns: [
-            { hostname: 'picsum.photos' },
-            { hostname: 'lh3.googleusercontent.com' },
-            { hostname: 'avatars.githubusercontent.com' },
-        ],
+        domains: ['picsum.photos', 'lh3.googleusercontent.com', 'avatars.githubusercontent.com'],
     },
 };
 
